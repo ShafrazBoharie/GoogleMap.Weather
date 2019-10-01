@@ -1,4 +1,11 @@
-# OpenWeather
+# Google map to display weather details.
+This App alows to view the weather of current location, if HTML 5 location finder is enabled upon opening yhis app, or else it allows user to find weather details by the name of the location. 
+Also you can click a location on the google map. and it displays the weather details of the selected location. 
+This app uses 2 external APIs
+* OpenWeatherMap 
+* Google Map 
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
