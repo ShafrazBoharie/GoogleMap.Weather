@@ -41,6 +41,12 @@ export class TodayComponent implements OnInit {
     } 
   }
 
+  keyDownFunction($event:any,city:any){
+    if(event.keyCode == 13) {
+      this.getCity(city);  
+    }
+  }
+
   getCity(city){
 
     this.weatherService.getWeatherDataByCityName(city).subscribe((data:any)=>{   

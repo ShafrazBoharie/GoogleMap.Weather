@@ -5,7 +5,7 @@
 
     <div *ngIf="weather; else waiting">
     <div class="input-group mt-5">
-        <input class="form-control" type="text" #userInput placeholder="Enter city name" >
+        <input class="form-control" (keydown)="keyDownFunction($event,userInput.value)" type="text" #userInput placeholder="Enter city name" >
         <div class="input-group-append">
             <button class="input-group-text btn btn-outline-primary" (click)='getCity(userInput.value)'>Search</button>
         </div>        
@@ -48,7 +48,7 @@
         <img src="https://media.tenor.com/images/42143b23a4be8a1f857a206774f251fc/tenor.gif" *ngIf="locationDenied">
 
         <div class="input-group mt-5" *ngIf="locationDeniedEnableCity">
-                <input class="form-control" type="text" #userInput placeholder="Enter city name" >
+                <input class="form-control" (keydown)="keyDownFunction($event,userInput.value)" type="text" #userInput placeholder="Enter city name" >
                 <div class="input-group-append">
                     <button class="input-group-text btn btn-outline-primary" (click)='getCity(userInput.value)'>Search</button>
                 </div>        
