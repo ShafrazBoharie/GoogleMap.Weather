@@ -5,7 +5,7 @@ This app uses 2 external APIs
 * OpenWeatherMap 
 * Google Map 
 
-
+![](Preview.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
