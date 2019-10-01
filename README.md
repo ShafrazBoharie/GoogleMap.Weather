@@ -1,6 +1,6 @@
 # Google map to display weather details.
-This App alows to view the weather of current location, if HTML 5 location finder is enabled upon opening yhis app, or else it allows user to find weather details by the name of the location. 
-Also you can click a location on the google map. and it displays the weather details of the selected location. 
+This App allows to view the weather details of the current location, if the HTML's location finder is enabled upon opening this app, or else it allows user to find weather details by the name of the location. 
+Also you can click a location on the google map and it displays the weather details of the selected location. 
 This app uses 2 external APIs
 * OpenWeatherMap 
 * Google Map 
