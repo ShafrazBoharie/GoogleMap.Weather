@@ -18,10 +18,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 Following external libraries have installed 
+
 * bootstrap 
-     npm -i --save bootstrap
+    * npm -i --save bootstrap
 * google map 
-     npm i --save @agm/core
+    * npm i --save @agm/core
      
 Also, make sure to update references for above installed libraries on the Angular.json
 
